@@ -1,0 +1,14 @@
+package objects;
+
+import java.io.*;
+import java.util.*;
+
+public class ParseResults {
+	private List<Results> results;
+	
+	public ParseResults(){
+		results = new ArrayList<Results>();
+	}
+	
+	
+}

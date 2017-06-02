@@ -1,0 +1,7 @@
+package objects;
+
+public class Results {
+	private String url;
+	private double time;
+	
+}

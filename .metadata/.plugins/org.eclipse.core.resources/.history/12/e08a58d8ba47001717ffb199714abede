@@ -1,0 +1,26 @@
+package objects;
+
+import java.io.*;
+import java.util.*;
+
+public class ParseResults {
+	private List<Results> results;
+	
+	public ParseResults(){
+		results = new ArrayList<Results>();
+	}
+	
+	public void showURL(){
+		for(Results r: results){
+			System.out.println(r.toString());
+		}
+	}
+	
+	public void readFile() throws IOException{
+		try{
+			System.out.println("Enter a filepath to read from ");
+			Scanner in = new Scanner(System.in);
+		}
+	}
+	
+}
